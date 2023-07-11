@@ -1,0 +1,17 @@
+// Generated code for this Image Widget...
+Padding(
+  padding: EdgeInsetsDirectional.fromSTEB(0, 100, 0, 0),
+  child: ClipRRect(
+    borderRadius: BorderRadius.circular(8),
+    child: Image.asset(
+      'assets/images/study_pal_logo.png',
+      width: 300,
+      height: 250,
+      fit: BoxFit.scaleDown,
+    ),
+  )
+      .animateOnPageLoad(animationsMap['imageOnPageLoadAnimation']!)
+      .animateOnActionTrigger(
+        animationsMap['imageOnActionTriggerAnimation']!,
+      ),
+)
